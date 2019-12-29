@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Renren.team</title>
+    <title>Blogs on renren.team|renren&#39;s Blog</title>
     <link>/blog/</link>
-    <description>Recent content in Blogs on Renren.team</description>
+    <description>Recent content in Blogs on renren.team|renren&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2019 20:33:50 +0800</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,33 @@ We&#39;ll start with creating a new site with a very basic template.</descriptio
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&#39;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>自学Hugo&#43;Github&#43;Markdown</title>
+      <link>/blog/self-study-hugo/</link>
+      <pubDate>Sat, 28 Dec 2019 20:33:50 +0800</pubDate>
+      
+      <guid>/blog/self-study-hugo/</guid>
+      <description>以下行文的结构框架为：
+ Hugo
+ 网站图标   Hugo
+参考地址 https://jingyan.baidu.com/article/adc8151326554bb722bf7373.html
+放在根目录下的static文件夹下的img文件夹内的图片通过hugo后直接拷贝到public文件夹下img目录下。通过修改config.toml文件中logogile = 指令成功更换logo图标，以及修改faviconfile = 指令成功更换icon文件。
+ github
+ github pages   Github Github Pages 第一步 创建一个仓库 命名方式为 账号 + .github.io ，例如我的仓库名为：phdzhaoyong.github.io
+第二步 在仓库里添加CNAME文件 有两总方式：
+第一种：在仓库里添加一个文件，命名为 CNAME，文件名大写且没有后缀；文件里填写要绑定的域名且不要包含Http://和www
+第二种：进入setting设置中，找到 github pages-Custom domain添加域名www.renren.team后保存即可。同时在code仓库里系统自动创建了CNAME文件，并且里面添加了subdomain域名。
+第三步 域名解析 在新网购买的域名，添加解析CNAME即可。&amp;ndash;网站可以正常访问了，恭喜你成功了。
+ Markdown
+  基础篇
+  进阶篇
+   基础篇1 使用编辑器会使撰写文章变的轻松许多，但是并不是很多功能都能胜任。例如注脚的使用。
+参考网站为https://www.runoob.com/markdown/md-tutorial.html
+创建脚注格式类似这样 [^RUNOOB]。 [^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！ 标题的符号使用 使用#标记标题字号大小，#号越多标题越小。
+换行的符号使用 撰写本文的时候使用的marktext工具，此工具使用空行表示重新开始一个段落。
+喜欢的IDE工具输入命令hugo new blog/a.</description>
     </item>
     
     <item>

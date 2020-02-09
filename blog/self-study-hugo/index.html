@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>自学Hugo&#43;Github&#43;Markdown - renren.team|renren&#39;s Blog</title>
+    <title>自学Hugo&#43;Github&#43;Markdown - renren&#39;s Blog</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="referrer" content="no-referrer">
     <meta name="description" content="Hugo alaGeek Theme">
-    <meta property="og:site_name" content="renren.team|renren&#39;s Blog" />
+    <meta property="og:site_name" content="renren&#39;s Blog" />
     <meta property="og:locale" content="nn_NO" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="/blog/self-study-hugo/" />
@@ -48,7 +48,7 @@
         href="/img/rr48.png">
 
 
-    <link href='' rel="alternate" type="application/rss+xml" title="renren.team|renren&#39;s Blog" />
+    <link href='' rel="alternate" type="application/rss+xml" title="renren&#39;s Blog" />
 
     <noscript>
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
@@ -77,7 +77,7 @@
             <div class="col-auto align-self-center mr-auto">
                 <a href="/">
                     <h1 class="font-weight-bold name">
-                        renren.team|renren&#39;s Blog
+                        renren&#39;s Blog
                     </h1>
                 </a>
 
@@ -143,8 +143,8 @@
 
                         
                             
-                                <span class="author middot" title="Zhao Yong">
-                                    Zhao Yong
+                                <span class="author middot" title="Admin">
+                                    Admin
                                 </span>
                             
                         
@@ -170,64 +170,102 @@
                     <div class="markdown">
                         
     
-    <p>以下行文的结构框架为：</p>
+    
+
+<p>以下行文的结构框架为：</p>
+
 <blockquote>
 <p>Hugo</p>
+
 <ul>
 <li>网站图标</li>
 </ul>
 </blockquote>
+
 <p>Hugo</p>
+
 <p>参考地址 <a href="https://jingyan.baidu.com/article/adc8151326554bb722bf7373.html">https://jingyan.baidu.com/article/adc8151326554bb722bf7373.html</a></p>
+
 <p>放在根目录下的static文件夹下的img文件夹内的图片通过hugo后直接拷贝到public文件夹下img目录下。通过修改config.toml文件中logogile = 指令成功更换logo图标，以及修改faviconfile = 指令成功更换icon文件。</p>
+
+<p>一个不错的hugo学习网站<a href="http://www.g-var.com/posts/translation/hugo/hugo-9-sections/">http://www.g-var.com/posts/translation/hugo/hugo-9-sections/</a></p>
+
+<p>网上很少 有中文的入门教程，制作这个教程也是想帮助想使用hugo建站的小白们，少走弯路。</p>
+
 <blockquote>
 <p>github</p>
+
 <ul>
 <li>github pages</li>
 </ul>
 </blockquote>
+
 <h2 id="github">Github</h2>
+
 <h3 id="github-pages">Github Pages</h3>
+
 <p>第一步 创建一个仓库
 命名方式为 账号 + .github.io ，例如我的仓库名为：phdzhaoyong.github.io</p>
+
 <p>第二步 在仓库里添加CNAME文件
 有两总方式：</p>
+
 <p>第一种：在仓库里添加一个文件，命名为 CNAME，文件名大写且没有后缀；文件里填写要绑定的域名且不要包含Http://和www</p>
+
 <p>第二种：进入setting设置中，找到 github pages-Custom domain添加域名www.renren.team后保存即可。同时在code仓库里系统自动创建了CNAME文件，并且里面添加了subdomain域名。</p>
+
 <p>第三步 域名解析
 在新网购买的域名，添加解析CNAME即可。&ndash;网站可以正常访问了，恭喜你成功了。</p>
+
 <blockquote>
 <p>Markdown</p>
+
 <ul>
-<li>
-<p>基础篇</p>
-</li>
-<li>
-<p>进阶篇</p>
-</li>
+<li><p>基础篇</p></li>
+
+<li><p>进阶篇</p></li>
 </ul>
 </blockquote>
-<h2 id="mark-text">基础篇<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+
+<h2 id="基础篇-mark-text">基础篇<sup class="footnote-ref" id="fnref:mark-text"><a href="#fn:mark-text">1</a></sup></h2>
+
 <p>使用编辑器会使撰写文章变的轻松许多，但是并不是很多功能都能胜任。例如注脚的使用。</p>
+
 <p>参考网站为<a href="https://www.runoob.com/markdown/md-tutorial.html">https://www.runoob.com/markdown/md-tutorial.html</a></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">创建脚注格式类似这样  [^RUNOOB]。 
+
+<pre><code class="language-markdown">创建脚注格式类似这样  [^RUNOOB]。 
 [^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
-</code></pre></div><h3 id="heading">标题的符号使用</h3>
+</code></pre>
+
+<h3 id="标题的符号使用">标题的符号使用</h3>
+
 <p>使用#标记标题字号大小，#号越多标题越小。</p>
-<h3 id="heading-1">换行的符号使用</h3>
+
+<h3 id="换行的符号使用">换行的符号使用</h3>
+
 <p>撰写本文的时候使用的marktext工具，此工具使用空行表示重新开始一个段落。</p>
+
 <p>喜欢的IDE工具输入命令hugo new blog/a.md</p>
-<h2 id="heading-2">进阶篇</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">kbd</span>&gt;Ctrl&lt;/<span style="color:#f92672">kbd</span>&gt;+&lt;<span style="color:#f92672">kbd</span>&gt;Alt&lt;/<span style="color:#f92672">kbd</span>&gt;+&lt;<span style="color:#f92672">kbd</span>&gt;Del&lt;/<span style="color:#f92672">kbd</span>&gt;  重启电脑
-</code></pre></div><p><!-- raw HTML omitted -->Ctrl<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Alt<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Del<!-- raw HTML omitted -->  重启电脑</p>
-<section class="footnotes" role="doc-endnotes">
-<hr>
+
+<h3 id="首行缩进妙用">首行缩进妙用</h3>
+
+<p>首行缩进的办法，在中文文章撰写中通常需要首行缩进，但是markdown语法中没有这个考虑，在网上看到一个帖子说用全角状态下输入两个空格即可。试了一下还真行。</p>
+
+<h2 id="进阶篇">进阶篇</h2>
+
+<pre><code class="language-html">&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt;  重启电脑
+</code></pre>
+
+<p><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>  重启电脑</p>
+<div class="footnotes">
+
+<hr />
+
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p>一款不错的编辑器。 <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
+<li id="fn:mark-text">一款不错的编辑器。
+ <a class="footnote-return" href="#fnref:mark-text"><sup>[return]</sup></a></li>
 </ol>
-</section>
+</div>
 
 
 
@@ -237,20 +275,22 @@
                 
                     <div class="col-sm-12 col-md-3">
                         <nav id="TableOfContents" class="sticky-top">
-  <ul>
-    <li><a href="#github">Github</a>
-      <ul>
-        <li><a href="#github-pages">Github Pages</a></li>
-      </ul>
-    </li>
-    <li><a href="#mark-text">基础篇</a>
-      <ul>
-        <li><a href="#heading">标题的符号使用</a></li>
-        <li><a href="#heading-1">换行的符号使用</a></li>
-      </ul>
-    </li>
-    <li><a href="#heading-2">进阶篇</a></li>
-  </ul>
+<ul>
+<li>
+<ul>
+<li><a href="#github">Github</a>
+<ul>
+<li><a href="#github-pages">Github Pages</a></li>
+</ul></li>
+<li><a href="#基础篇-mark-text">基础篇<sup class="footnote-ref" id="fnref:mark-text"><a href="#fn:mark-text">1</a></sup></a>
+<ul>
+<li><a href="#标题的符号使用">标题的符号使用</a></li>
+<li><a href="#换行的符号使用">换行的符号使用</a></li>
+<li><a href="#首行缩进妙用">首行缩进妙用</a></li>
+</ul></li>
+<li><a href="#进阶篇">进阶篇</a></li>
+</ul></li>
+</ul>
 </nav>
                     </div>
                 
@@ -283,8 +323,8 @@
                                 <div class="col-12 col-md-6">
                                     
                                         <div class="mx-0 mx-md-4 mt-4 text-right">
-                                            <a href="/blog/migrate-from-jekyll/">
-                                                <span class="text">Migrate to Hugo from Jekyll</span>
+                                            <a href="/blog/email-config/">
+                                                <span class="text">Email Config</span>
                                                 <span class="icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175">
         <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5 c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z" />
